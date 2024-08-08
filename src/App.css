@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+.chat-box {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.messages {
+  max-height: 300px;
+  overflow-y: scroll;
+  margin-bottom: 20px;
+}
+
+.message {
+  text-align: left;
+  margin: 5px 0;
+}
+
+.bot-message {
+  color: blue;
+}
+
+.user-message {
+  color: green;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
